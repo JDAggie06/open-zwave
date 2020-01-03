@@ -30,6 +30,9 @@ and release the top or bottom of the wireless smart dimmer
       <Entry author="Radovan Bauer - radovan.bauer@gmail.com" date="07 Dec 2019" revision="1">Initial Metadata Import from Z-Wave Alliance Database - https://products.z-wavealliance.org/products/3323/xml</Entry>
     </ChangeLog>
   </MetaData>
+  <CommandClass id="38">
+    <Value type="byte" genre="system" instance="1" index="5" label="Dimming Duration" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255" />
+  </CommandClass>
   <CommandClass id="112">
     <Value genre="config" index="3" label="LED Indication Configuration" max="3" min="0" size="1" type="list" value="0">
       <Help>Adjust the LED status to default, invert, always OFF or always ON</Help>
